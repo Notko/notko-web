@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+html, body {
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  margin: 0;
+/*  background: rgb(129,245,255);
+  background: linear-gradient(45deg, rgba(0,255,251,1) 0%, rgb(54, 255, 213) 100%);*/
+  background: url("../img/bg.jpg") center no-repeat;
+  background-size: cover;
+
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 8rem;
+    padding: 0;
+    margin: 0;
+  }
+
+#logo{
+  margin-top: 3rem;
+  width: 50vw;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+  #peepohey {
+    width: 30vw;
+    min-width: 150px;
+    max-width: 300px;
+    margin-top: 2rem;
+  }
+
+  #icons {
+    margin-top: 1.5rem;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+
+    .icon {
+      padding: 1rem;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    }
+
+    .link-twitch {
+      .twitch {
+        color: #9146ff;
+      }
+      transition: transform 0.2s;
+    }
+
+    .link-twitch:hover{
+      transform: translateY(-0.4rem);
+    }
+
+    .link-instagram {
+      .instagram {
+        color: #5851DB;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      transition: transform 0.2s;
+    }
+
+    .link-instagram:hover{
+      transform: scale(1.2);
+    }
+
+    .link-discord {
+      .discord {
+        color: #7289da;
+      }
+      transition: transform 0.5s;
+    }
+
+    .link-discord:hover{
+      transform: rotateZ(360deg);
+    }
+  }
+}
+

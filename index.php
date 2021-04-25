@@ -21,7 +21,8 @@
 </head>
 <body>
 <section id="main">
-    <h1>Notko_</h1>
+<!--    <h1>Notko_</h1>-->
+    <img src="img/NotkoLogoBlack.svg" alt="Notko" id="logo"/>
     <img src="img/peepohey.gif" alt="peepohey" id="peepohey"/>
     <section id="icons">
         <a href="https://www.twitch.tv/notko_" target="_blank" class="link-twitch"><i class="fab fa-twitch twitch icon"></i></a>
